@@ -9,4 +9,3 @@ for file in file_names:
 sort_file = [[key, file_dict[key]] for key in sorted(file_dict, key=file_dict.get, reverse=True)]
 for i in sort_file[:3]:
 	print(i[0]+" "+str(i[1]))
-# print(sort_file[:3])
